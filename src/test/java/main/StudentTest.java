@@ -32,7 +32,7 @@ public class StudentTest {
 	           }
 		
 		
-		assertEquals(true,h.verifyName("tekjhgfdsst"));
+		assertEquals(false,h.verifyName("tekjhgfdsst"));
 		
 		
 		
@@ -42,7 +42,7 @@ public class StudentTest {
 	@SuppressWarnings("static-access")
 	@Test
 	public void studentDuplicacyTest() throws IOException{
-//		boolean chk = true;
+//	boolean chk = true;
 		assertEquals(false,h.verifyName("abcdef"));
 	}
 
